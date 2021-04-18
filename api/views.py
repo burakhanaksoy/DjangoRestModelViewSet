@@ -56,6 +56,3 @@ class CarSpecsViewSet(viewsets.ModelViewSet):
         car.delete()
 
         return Response('Deleted..', status=status.HTTP_204_NO_CONTENT)
-
-    def update(self, request, pk=None):
-        pass
