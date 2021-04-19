@@ -16,4 +16,4 @@ class CarPlanSerializer(serializers.ModelSerializer):
 class SameCarCheckSerializer(serializers.ModelSerializer):
     class Meta:
         model = CarSpecs
-        fields = ['car_plan','car_brand','car_model','production_year','car_body','engine_type']
+        fields = ['car_brand','car_model','production_year','car_body','engine_type']
